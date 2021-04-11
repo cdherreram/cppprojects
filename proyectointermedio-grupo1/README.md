@@ -9,5 +9,5 @@ Modelar con una malla bidimensional (arreglo bidimensional en C++) el efecto de 
 percolante en función de la probabilidad de percolación _p_ y el tamaño de la malla _L_.
 
 ## Links:
-* [Proyecto: ] (https://github.com/cdherreram/cppprojects/blob/master/proyectointermedio-grupo1/proyecto2_grupo1.pdf)
-* [Clúster Percolante] (https://en.wikipedia.org/wiki/Percolation_theory)
+* Proyecto: https://github.com/cdherreram/cppprojects/blob/master/proyectointermedio-grupo1/proyecto2_grupo1.pdf
+* Clúster Percolante: https://en.wikipedia.org/wiki/Percolation_theory
