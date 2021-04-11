@@ -1,0 +1,20 @@
+reset
+
+set terminal pngcairo
+
+set style line 1 lc rgb 'red' lt 1 lw 2 pt 7 ps 1
+set style line 2 lc rgb 'blue' lt 1 lw 2 pt 7 ps 3
+
+unset key
+unset tics
+set border 0
+
+system('mkdir -p png')
+n = 0
+do for [ii=1:10]{
+   n = n+1
+   set output sprintf('png/file%03.0f.png',n)
+   do for [jj=3:11:4]{
+      plot 'datos.txt' u jj:jj+1 every ::ii::ii w p ls 1
+      }
+}     
